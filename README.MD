@@ -1,4 +1,4 @@
-#Welcome to the Public Version of Elara.
+Welcome to the Public Version of Elara.
 ===========================================
 
 Getting started.
