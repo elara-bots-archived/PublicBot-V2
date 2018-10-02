@@ -7,7 +7,7 @@ Getting started.
 2. Go to bot.js you will need to add the prefix you want the bot to have and you will need to add your ID in there aswell.. This is for the bot owner commands [Note: Do not add anyone else in there unless you want them to have full access to your bot.]
 3. To download all of the required packages do [npm i] in the console and it will install them all.
 4. I have labeled everything in bot.js to explain what everything does etc.
-5. You will need to get your own api keys for [youtube, twitch, fortnite, giphy] Sites listed below
+5. You will need to get your own api keys for [youtube, twitch, fortnite, giphy] Links here -->
 Twitch: https://dev.twitch.tv
 Youtube: https://console.developers.google.com/projectselector/apis/credentials?supportedpurview=project
 Fortnite: https://fortnitetracker.com/site-api
