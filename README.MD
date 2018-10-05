@@ -12,3 +12,9 @@ Twitch: https://dev.twitch.tv
 Youtube: https://console.developers.google.com/projectselector/apis/credentials?supportedpurview=project
 Fortnite: https://fortnitetracker.com/site-api
 Giphy: https://developers.giphy.com
+
+<html>
+  <p>
+    <a href="https://discord.gg/hgsM86w"><img src="https://canary.discordapp.com/api/guilds/371105897570631691/widget.png?style=banner2" alt="Join Discord Server"/></a>
+  </p>
+</html>
