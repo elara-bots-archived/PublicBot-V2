@@ -1,25 +1,22 @@
 const Discord = require('discord.js');
-module.exports.run = (bot, oldChannel, newChannel) => {
+module.exports.run = async (bot, oldChannel, newChannel) => {
     let modlogs = oldChannel.guild.channels.find(c => c.name === "modlogs");
     if (!modlogs) return;
-    let embed = new Discord.RichEmbed()
+   let embed = new Discord.RichEmbed()
         .setColor(`#FF000`)
+        .setAuthor(newChannel.guild.name, newChannel.guild.iconURL)
+        .setTimestamp()
+        .setFooter(bot.user.tag, bot.user.displayAvatarURL)
     if (oldChannel.name !== newChannel.name) {
-        embed.setAuthor(newChannel.guild.name, newChannel.guild.iconURL)
-        embed.setTimestamp()
-        embed.setFooter(bot.user.tag, bot.user.displayAvatarURL)
-        embed.setTitle(`Channel Name Changed`)
-        embed.addField(`Old Channel Name`, oldChannel.name, true)
-        embed.addField(`New Channel Name`, newChannel.name, true)
-        modlogs.send(embed)
-    } else
-        if (oldChannel.parentID !== newChannel.parentID) {
-            embed.setAuthor(newChannel.guild.name, newChannel.guild.iconURL)
-            embed.setTimestamp()
-            embed.setFooter(bot.user.tag, bot.user.displayAvatarURL)
-            embed.addField(`Channel Moved`, newChannel)
-            embed.addField(`Old Channel Category`, `${oldChannel.parent}`, true)
-            embed.addField(`New Channel Category`, `${newChannel.parent}`, true)
-            modlogs.send(embed)
-        }
+    if (oldChannel.guild.members.get(bot.user.id).permissions.has("VIEW_AUDIT_LOG")) {
+    let who = await oldChannel.guild.fetchAuditLogs().then(audit => audit.entries.first().executor)
+    embed.setTitle(`Channel Name Changed`)
+    embed.setDescription(`**Old: ** ${oldChannel.name}\n**New: ** ${newChannel.name}\n**ID: **${newChannel.id}\n**Updated By: ** ${who}`)
+    return modlogs.send(embed)
+   }else{
+   embed.setTitle(`Channel Name Changed`)
+   embed.setDescription(`**Old: ** ${oldChannel.name}\n**New: ** ${newChannel.name}\n**ID: **${newChannel.id}`)
+   return modlogs.send(embed)
+}
+}
 }
