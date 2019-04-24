@@ -27,7 +27,7 @@ module.exports = class NCommand extends Command {
         }else{
             color = "RANDOM"
         }
-        const emoji = args[0].split(/\s+/)[0];
+        const emoji = content.split(/\s+/)[0];
         let parsedEmoji = DJSUtils.parseEmoji(emoji);
         if (/^\d{17,19}/.test(emoji)) {
             parsedEmoji = { id: String(emoji), animated: "unknown" };
