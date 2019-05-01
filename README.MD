@@ -1,3 +1,9 @@
+NOTICE
+=====================
+All of this code is outdated and will be updated soon. 
+
+
+
 Welcome to the Public Version of Elara.
 ===========================================
 
