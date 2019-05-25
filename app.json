@@ -1,6 +1,6 @@
 {
   "name": "public-bot",
-  "description": "Discord.js customizable bot",
+  "description": "Discord.js-commando customizable bot",
   "website": "https://github.com/Elara-Discord-Bots/PublicBot-V2",
   "logo": "https://cdn.discordapp.com/attachments/444028025932349441/581741911635656704/43923163.png",
   "env": {
