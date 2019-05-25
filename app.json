@@ -42,7 +42,7 @@
       "description": "Support Server Invite.",
       "value": "https://discord.gg/Discord-API",
       "required": "true"
-    },
+    }
   },
   "formation": {
     "worker": {
