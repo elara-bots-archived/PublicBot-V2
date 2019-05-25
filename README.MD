@@ -4,6 +4,8 @@ All of this code is outdated and will be updated soon.
 
 
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Elara-Discord-Bots/PublicBot-V2)
+
 Welcome to the Public Version of Elara.
 ===========================================
 
