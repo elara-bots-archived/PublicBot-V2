@@ -32,7 +32,17 @@
       "description": "Twitch API key, get it here... https://dev.twitch.tv/",
       "value": "",
       "required": "true"
-    }
+    },
+    "owners": {
+      "description": "Bot Developer IDS, seperate the ids by commas.. Ex: id1, id2, id3 | Disclaimer Bot Developers do have access to the eval command and is dangerous in the wrong hands!",
+      "value": "",
+      "required": "true"
+    },
+    "invite": {
+      "description": "Support Server Invite.",
+      "value": "https://discord.gg/Discord-API",
+      "required": "true"
+    },
   },
   "formation": {
     "worker": {
