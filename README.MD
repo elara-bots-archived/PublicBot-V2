@@ -23,5 +23,5 @@ DISCLAIMER
 The Support Servers
 ====================
 [![Discord server](https://discordapp.com/api/guilds/499409162661396481/embed.png?style=banner4)](https://discord.gg/qafHJ63)
-[![Discord server](https://discordapp.com/api/guilds/371105897570631691/embed.png?style=banner4)](https://discord.gg/hgsM86w)
+[![Discord server](https://discordapp.com/api/guilds/371105897570631691/embed.png?style=banner4)](https://discord.gg/NGdVDgk)
 
