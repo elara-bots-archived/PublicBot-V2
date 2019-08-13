@@ -1,7 +1,8 @@
 NOTICE
 =====================
-All of this code is outdated and will be updated soon. 
+**All of this code is outdated**
 
+**The updated code can be found at [PublicBot-Cmdo Repo](https://github.com/elara-bots/PublicBot-Cmdo)**
 
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Elara-Discord-Bots/PublicBot-V2)
